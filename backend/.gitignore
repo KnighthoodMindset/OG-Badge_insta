@@ -8,7 +8,7 @@ backend/app/__pycache__/
 # Environment variables / secrets
 .env
 .env.*
-!.env.example
+
 
 # Node
 frontend/node_modules/
