@@ -31,7 +31,8 @@ export default function App() {
         <Route path="/apply" element={<ApplyBadgePage />} />
       </Route>
 
-      <Route path="*" element={<Navigate to="/reels" replace />} />
+      <Route path="*" element={<Navigate to="/auth" replace />} />
+
     </Routes>
   );
 }
